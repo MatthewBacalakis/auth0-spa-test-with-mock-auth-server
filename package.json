@@ -1,0 +1,22 @@
+{
+  "name": "spatesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {  
+    "start": "concurrently 'node test/mockProvider.js' 'node bin/www'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.12",
+    "oidc-provider": "^7.8.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "morgan": "^1.9.1",
+    "nock": "^13.1.3"
+  }
+}
