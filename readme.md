@@ -16,7 +16,7 @@ To run this sample:
 
 - Create a copy of auth_config.sample named auth_config.json. This file is already configured to run against the mock server.
 - Install dependencies with `npm install`
-- Start sample app and quickstart with `npm install`
+- Start sample app and quickstart with `npm start`
 
 The application will run at http://localhost:3000 and the mock auth server at http://localhost:3001.
 
